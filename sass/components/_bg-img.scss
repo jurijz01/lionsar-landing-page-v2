@@ -1,0 +1,30 @@
+/* PARALLAX EFFECT */
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url(/img/header-1-small.jpg);
+  height: 100vh;
+}
+
+.bgimg-2 {
+  background-image: url(/img/header-2-small.jpg);
+  height: 80vh;
+}
+
+.bgimg-3 {
+  background-image: url(/img/header-3-small.jpg);
+  height: 80vh;
+}
+
+.bgimg-4 {
+  background-image: url(/img/header-4-small.jpg);
+  height: 80vh;
+}

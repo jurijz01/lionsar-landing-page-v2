@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>LIONS AR SERVISS | Marine supply services</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Marine supply services, provision, bonded stores, technical supply">
+	<meta name="keywords" content="provision, bonded store, technical supply, marine service, safety equipment, measuring equipment">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<!--NAVBAR TOP-FIXED-->
+<div class="w3-top w3-card-4 w3-light-blue">
+  <div class="w3-show-inline-block">
+    <div class="w3-bar" id="topNavfixed">
+      <a class="w3-bar-item w3-btn w3-hide-medium w3-hide-large w3-left" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#home" class="w3-bar-item w3-btn"><i class="fa fa-home" style="font-size: 1.5rem"></i></a>
+
+      <div class="w3-dropdown-hover">
+        <button class="w3-btn w3-hide-small">ABOUT <i class="fa fa-caret-down"></i></button>
+        <div id="dropDownMenu" class="w3-dropdown-content w3-round w3-animate-zoom w3-padding-small w3-light-blue w3-bar-block w3-card-4">
+          <a href="#about" class="w3-bar-item w3-btn w3-hover-cyan w3-hide-small">About us</a>
+          <a href="#mission" class="w3-bar-item w3-btn w3-hover-cyan w3-hide-small">Our mission</a>
+        </div>
+      </div>
+      <a href="#services" class="w3-bar-item w3-btn w3-hide-small">Services</a>
+      <a href="#contacts" class="w3-bar-item w3-btn w3-hide-small">Contacts</a>
+    </div>
+  </div>
+
+  <div class="w3-show-inline-block w3-right">
+   <div class="w3-dropdown-hover">
+    <button class="w3-btn w3-light-blue"><i class="fa fa-globe"></i> EN</button>
+    <div id="langSelector" class="w3-dropdown-content w3-round w3-animate-zoom w3-padding-small w3-light-blue w3-round w3-bar-block w3-card-4">
+      <a href="#" class="w3-bar-item w3-btn w3-hover-cyan">RU</a>
+      <a href="#" class="w3-bar-item w3-btn w3-hover-cyan">LV</a>
+    </div>
+   </div>
+  </div>
+
+
+  <!--NAVBAR - TOGGLE-MENU ON SMALL SCREENS-->
+  <div id="navToggle" class="w3-bar-block w3-card-4 w3-light-blue w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-btn" onclick="toggleFunction()">About us</a>
+    <a href="#mission" class="w3-bar-item w3-btn" onclick="toggleFunction()">Mission</a>
+    <a href="#services" class="w3-bar-item w3-btn" onclick="toggleFunction()">Services</a>
+    <a href="#contacts" class="w3-bar-item w3-btn" onclick="toggleFunction()">Contacts</a>
+  </div>
+</div>
+
+<!--PARALAX IMAGE-1-->
+<div class="bgimg-1 w3-display-container" id="home">
+  <div class="logo-small-text w3-display-topright">
+      <span><img src="/img/logo-small-text.png" alt="Company logo-small" class="w3-image"></span>
+  </div>
+  <div class="logo-text w3-display-middle">
+    <span><img src="/img/Lionsar-text-logo-white.png" alt="Company logo-text" class="w3-hide-small w3-image"></span>
+
+    <!--Text slideshow on image-1-->
+    <h1 class="services w3-wide w3-center">Provision</h1>
+    <h1 class="services w3-wide w3-center">Bonded store</h1>
+    <h1 class="services w3-wide w3-center">Technical supply</h1>
+  </div>
+</div>
+
+<!--SECTION - ABOUT-->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h2 class="about-section w3-wide w3-center">About us</h2>
+  <div class="w3-row">
+
+    <!--<div class="w3-col m6 w3-center w3-padding-large">-->
+    <div class="w3-display-container w3-third m6 w3-section w3-padding">
+      <img src="/img/buklet-front-small.jpg" class="buklet-logo w3-round w3-card-4 w3-image" alt="LIONS AR booklet-front side">
+      <img src="/img/buklet-back-small.jpg" class="buklet-logo w3-round w3-card-4 w3-image" alt="LIONS AR booklet-back side">
+    </div>
+
+    <!--<div class="w3-col m6 w3-large w3-padding-large w3-justify">-->
+    <div class="w3-display-container w3-twothird m6 w3-section w3-large w3-padding w3-justify">
+      <p>&nbsp;&nbsp;&nbsp;LIONS AR SERVISS is a dynamically growing company. We aim to be a reliable partner, which offers a wide range of products and services based on timing, pricing and just-in-time delivery.</p>
+      <p>&nbsp;&nbsp;&nbsp;Our company offers comprehensive marine supply services :</p>
+        <ul class="w3-ul">
+          <li><span class="ul-list">&#10004;</span><em>wide range of fresh, frozen and dry provisions</em></li>
+          <li><span class="ul-list">&#10004;</span><em>duty-free items like cigarettes, alcohol, beer and snacks</em></li>
+          <li><span class="ul-list">&#10004;</span><em>the deck, engine and cabin supplies</em></li>
+          <li><span class="ul-list">&#10004;</span><em>safety equipment</em></li>
+        </ul>
+    </div>
+
+  </div>
+</div>
+
+
+<!--PARALAX IMAGE-2-->
+<div class="bgimg-2 w3-display-container">
+  <div class="logo-small-text-2 w3-display-topright">
+    <span class="w3-xxlarge w3-text-white w3-wide"><img src="/img/logo-small-text.png" alt="Company logo-small" class="w3-image"></span>
+  </div>
+  <div class="logo-text w3-display-middle">
+    <h1 class="values w3-wide w3-center">Knowledge</h1>
+    <h1 class="values w3-wide w3-center">Experience</h1>
+    <h1 class="values w3-wide w3-center">Efficiency</h1>
+    <h1 class="values w3-wide w3-center">Flexibility</h1>
+  </div>
+</div>
+
+
+<!--SECTION - OUR MISSION AND VALUES-->
+<div class="w3-content w3-container w3-padding-64" id="mission">
+  <h2 class="about-section w3-wide w3-center">Mission and values</h2>
+  <div class="w3-row">
+
+    <!--<div class="w3-col m6 w3-large w3-padding-large w3-justify">-->
+    <div class="w3-display-container w3-half m6 w3-section w3-large w3-padding w3-justify">
+      <h3 class="w3-wide">Mission</h3>
+      <ul class="w3-ul">
+		    <li>Provide our customers with high quality products 
+reliable service, competitive pricing and personalized approach</li>
+		    <li>Meet their needs and requirements in respect of terms delivery</li>
+		    <li>Respect each of our customers</li>
+        <li>To be compliant with the high demands of today's marine supply chain</li>
+      </ul>
+    </div>
+
+    <div class="w3-display-container w3-quarter m6 w3-section w3-large w3-padding w3-center">
+      <h3 class="w3-wide">Our values</h3>
+        <ul class="w3-ul">
+          <li><span class="ul-list">&#10004;</span><em>Knowledge</em></li>
+          <li><span class="ul-list">&#10004;</span><em>Experience</em></li>
+          <li><span class="ul-list">&#10004;</span><em>Efficiency</em></li>
+          <li><span class="ul-list">&#10004;</span><em>Flexibility</em></li>
+        </ul>
+    </div>
+
+    <!--<div class="w3-col m6 w3-center w3-padding-large">-->
+    <div class="w3-display-container w3-quarter m6 w3-section w3-padding">
+      <img src="/img/buklet-back-small.jpg" class="buklet2-logo w3-round w3-card-4 w3-image" alt="LIONS AR booklet-back side">
+      <img src="/img/buklet-front-small.jpg" class="buklet2-logo w3-round w3-card-4 w3-image" alt="LIONS AR booklet-front side">
+    </div>
+
+  </div>
+</div>
+
+
+<!--PARALAX IMAGE-3-->
+<div class="bgimg-3 w3-display-container">
+  <div class="logo-small-text-2 w3-display-topright">
+    <span class="w3-xxlarge w3-text-white w3-wide"><img src="/img/logo-small-text.png" alt="Company logo-small" class="w3-image"></span>
+  </div>
+  <div class="logo-text w3-display-middle">
+      <h1 class="workflow w3-wide w3-center">High quality products</h1>
+      <h1 class="workflow w3-wide w3-center">Reliable service</h1>
+      <h1 class="workflow w3-wide w3-center">Competitive pricing</h1>
+      <h1 class="workflow w3-wide w3-center">Personalized approach</h1>
+    </div>
+</div>
+
+
+<!--SECTION - OUR SERVICES-->
+<div class="w3-container w3-padding-64" id="services">
+  <h2 class="w3-center w3-wide">Services</h2>
+    <p class="services-text w3-center">
+    We provide our customers with high quality products, 
+reliable service, competitive pricing and personalized approach.
+    </p>
+
+  <!--RESPONSIVE GRID - SECTION - OUR SERVICES-->
+  <div class="w3-row-padding w3-content w3-center">
+
+    <div class="w3-display-container w3-third m4 w3-section">
+      <div class="card">
+        <div class="card__side card__side--front">
+          <div class="card__picture card__picture--1">&nbsp;</div>
+            <h4 class="card__heading">
+              <span class="card__heading-span card__heading-span--1">Provision</span>  
+            </h4>
+        </div>
+        <div class="card__side card__side--back card__side--back-1">
+          <h4 class="card__heading">
+            <span class="card__heading-span card__heading-span--1">Provision</span>  
+          </h4>
+        </div>
+      </div>
+      <a href="#" class="btn-text" onclick="document.getElementById('modal01').style.display='block'">Learn more &rarr;</a>
+
+      <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-btn w3-hover-light-blue w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+          <img class="modal-img w3-opacity" src="/img/provision-3-smaller.jpg" alt="Food">
+          <div class="modal-text w3-display-middle w3-large">
+            <h2 class="w3-wide">Provisions</h2>
+              <p>We provide a wide variety of premium provisions, carefully selected directly from the producers</p>
+              <ul class="w3-ul">
+                <li><span class="ul-list">&#10004;</span>Fresh, frozen, chilled and dry products</li>
+                <li><span class="ul-list">&#10004;</span>Fruit, vegetables and dairy products</li>
+                <li><span class="ul-list">&#10004;</span>Juices, drinks, waters</li>
+                <li><span class="ul-list">&#10004;</span>Fish and meats products</li>
+              </ul> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-display-container w3-third m4 w3-section">
+      <div class="card">
+        <div class="card__side card__side--front">
+          <div class="card__picture card__picture--2">&nbsp;</div>
+            <h4 class="card__heading">
+              <span class="card__heading-span card__heading-span--2">Bonded stores</span>  
+            </h4>
+        </div>
+        <div class="card__side card__side--back card__side--back-2">
+          <h4 class="card__heading">
+            <span class="card__heading-span card__heading-span--2">Bonded stores</span>  
+          </h4>
+        </div>
+      </div>
+      <a href="#" class="btn-text" onclick="document.getElementById('modal02').style.display='block'">Learn more &rarr;</a>
+
+      <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-btn w3-hover-light-blue w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+          <img class="modal-img w3-opacity" src="/img/bonded-store-2-smaller.jpg" alt="Wine in bottles">
+          <div class="modal-text w3-display-middle w3-large">
+            <h2 class="w3-wide">Bonded stores</h2>
+              <p>Wide range of bonded store's items</p>
+              <ul class="w3-ul">
+                <li><span class="ul-list">&#10004;</span>Duty-free items - cigarettes, spirits, beer</li>
+                <li><span class="ul-list">&#10004;</span>Snacks and confectionary</li>
+                <li><span class="ul-list">&#10004;</span>Perfumes and toiletries</li>
+                <li><span class="ul-list">&#10004;</span>Fish and meats products</li>
+              </ul> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-display-container w3-third m4 w3-section">
+      <div class="card">
+        <div class="card__side card__side--front">
+          <div class="card__picture card__picture--3">&nbsp;</div>
+            <h4 class="card__heading">
+              <span class="card__heading-span card__heading-span--3">Technical supply</span>  
+            </h4>
+        </div>
+        <div class="card__side card__side--back card__side--back-3">
+          <h4 class="card__heading">
+            <span class="card__heading-span card__heading-span--3">Technical supply</span>  
+          </h4>
+        </div>
+      </div>
+      <a href="#" class="btn-text" onclick="document.getElementById('modal03').style.display='block'">Learn more &rarr;</a>
+
+      <div id="modal03" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-btn w3-hover-light-blue w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+          <img class="modal-img w3-opacity" src="/img/techsupply-1-smaller.jpg" alt="Gears">
+          <div class="modal-text w3-display-middle w3-large">
+            <h2 class="w3-wide">Technical supply</h2>
+              <p>We provide a wide variety of deck, engine and cabin supplies</p>
+              <ul class="w3-ul">
+                <li><span class="ul-list">&#10004;</span>Navigational charts</li>
+                <li><span class="ul-list">&#10004;</span>Electrical supplies</li>
+                <li><span class="ul-list">&#10004;</span>Safety equipment</li>
+                <li><span class="ul-list">&#10004;</span>Cleaning supplies</li>
+              </ul> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--PARALAX IMAGE-4-->
+<div class="bgimg-4 w3-display-container">
+  <div class="logo-small-text w3-display-topright">
+    <span><img src="/img/logo-small-text.png" alt="Company logo-small" class="w3-hide-medium w3-hide-large w3-image"></span>
+  </div>
+  <div class="logo-text w3-display-middle">
+    <span><img src="/img/Lionsar-text-logo-white.png" alt="Company logo-text" class="w3-hide-small w3-image"></span>
+  </div>
+</div>
+
+<!--SECTION - CONTACTS-->
+<div class="w3-content w3-container w3-padding-32" id="contacts">
+  <h3 class="w3-center">Contacts</h3>
+    <p class="w3-center"><em>Please don't hesitate to contact us</em></p>
+  
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="/img/logo-small-text.png" alt="Company logo-small" class="w3-image w3-round" style="width:80%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 3,Viskalu str., Riga, LV-1026, Latvia<br>
+        <i class="fa fa-phone-square fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +371 20110531<br>
+        <i class="fa fa-phone-square fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +371 24429807<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: <a href="mailto:info@lionsar.lv?Subject=Hello%20again" target="_top">info@lionsar.lv</a><br>
+      </div>
+      <form action="/action_page.php" target="_blank">
+      <div class="w3-row-padding form-style">
+        <div class="w3-half">
+          <input class="w3-input w3-card w3-round w3-border" type="text" placeholder="Name" required name="Name">
+        </div>
+        <div class="w3-half">
+          <input class="w3-input w3-card w3-round w3-border" type="text" placeholder="Email" required name="Email">
+        </div>
+      </div>
+      <input class="w3-input w3-card w3-round w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-btn w3-card w3-light-blue w3-round w3-right w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> Send
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-blue w3-padding-16">
+  <a href="#home" class="w3-btn w3-card-4 w3-round w3-white"><i class="fa fa-arrow-up w3-margin-right"></i>To top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="mailto:info@lionsar.lv?Subject=Hello%20again" target="_top"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p class="footer__copyright">
+      &copy; 2019 LIONSAR &nbsp; | &nbsp; created by <a href="#" class="footer__link">JZ</a>
+  </p>
+</footer>
+
+<!--<script type="text/javascript" src="js/navbar_style_scroll.js"></script>-->
+<script type="text/javascript" src="js/toggle_menu.js"></script>
+<script type="text/javascript" src="js/smooth_scroll_to_top.js"></script>
+<script>w3.slideshow(".services", 2000)</script>
+<script>w3.slideshow(".values", 2000)</script>
+<script>w3.slideshow(".buklet-logo", 2000)</script>
+<script>w3.slideshow(".buklet2-logo", 2000)</script>
+<script>w3.slideshow(".workflow", 2000)</script>
+
+</body>
+</html>

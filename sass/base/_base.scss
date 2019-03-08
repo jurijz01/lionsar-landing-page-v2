@@ -1,0 +1,17 @@
+body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+body, 
+html {
+    height: 100%;
+    color: $color-primary;
+    line-height: 1.8;
+    background-color: $color-secondary;
+  }
+  
+h2, h3 {
+    text-shadow: 2px 2px 0 $color-primary-brightest;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+  }

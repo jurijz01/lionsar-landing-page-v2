@@ -1,0 +1,9 @@
+
+/* Turn off parallax for tablets and phones */
+
+@media only screen and (max-device-width: 100em) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: scroll;
+    min-height: 25em;
+  }
+}
