@@ -23,6 +23,12 @@ h2, h3 {
 #navToggle a {
   text-transform: uppercase; }
 
+p {
+  text-indent: 2rem !important; }
+
+.contact-text {
+  font-size: 1.5rem !important; }
+
 .services,
 .values,
 .workflow {
